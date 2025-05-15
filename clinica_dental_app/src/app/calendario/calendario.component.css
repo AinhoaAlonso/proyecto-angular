@@ -1,0 +1,47 @@
+.main-container-calendar {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 20px;
+    width: 60%;
+}
+
+.calendar-wrapper {
+  flex: 1;
+
+  .mat-mdc-card{
+    padding: 1rem;
+    width: 300px;
+
+    ::ng-deep .mat-calendar-body-label {
+      visibility: hidden
+    }
+  }
+}
+
+.appointment-wrapper {
+  flex: 1.5;
+
+  .title-appointment {
+    margin-bottom: 12px;
+  }
+}
+
+
+
+.appointment-item {
+  margin-bottom: 12px;
+  background: #f7f9fc;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.appointment-info strong {
+  color: #1976d2; /* azul Material para destacar */
+}
+
+
+
+
+

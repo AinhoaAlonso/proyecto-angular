@@ -1,0 +1,29 @@
+[
+  {
+    "nombrePaciente": "Laura Gómez",
+    "tratamiento": "Limpieza dental",
+    "fechaReserva": "2025-05-16",
+    "horaInicio": "09:00",
+    "horaFin": "09:30",
+    "estadoReserva": "Confirmada",
+    "nombreDentista": "Dr. Ramírez"
+  },
+  {
+    "nombrePaciente": "Carlos Pérez",
+    "tratamiento": "Extracción de muela",
+    "fechaReserva": "2025-05-16",
+    "horaInicio": "10:00",
+    "horaFin": "10:45",
+    "estadoReserva": "Pendiente",
+    "nombreDentista": "Dra. López"
+  },
+  {
+    "nombrePaciente": "Ana Torres",
+    "tratamiento": "Ortodoncia",
+    "fechaReserva": "2025-05-17",
+    "horaInicio": "11:00",
+    "horaFin": "11:30",
+    "estadoReserva": "Cancelada",
+    "nombreDentista": "Dr. Martínez"
+  }
+]
