@@ -1,10 +1,10 @@
 .main-container-calendar {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     justify-items: center;
     padding: 20px;
-    width: 60%;
+    width: 100%;
 }
 
 .calendar-wrapper {
@@ -19,29 +19,87 @@
     }
   }
 }
-
 .appointment-wrapper {
-  flex: 1.5;
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--secondary-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
 
-  .title-appointment {
-    margin-bottom: 12px;
-  }
+.title-appointment h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 8px;
+}
+
+.body-appointment {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: var(--background-color);
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+
+.header-row {
+  display: flex;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  color: var(--text-color-light);
+  padding: 10px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Cada fila */
+.row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 12px;
+  cursor: pointer;
+  height: 40px;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.row:hover {
+  background-color: #e6f0fb;
+}
+
+.cell {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 8px;
 }
 
 
-
-.appointment-item {
-  margin-bottom: 12px;
-  background: #f7f9fc;
-  padding: 10px;
-  border-radius: 6px;
+.header-row .cell:nth-child(1),
+.row .cell:nth-child(1) {
+  flex: 0 0 90px
 }
 
-.appointment-info strong {
-  color: #1976d2; /* azul Material para destacar */
+.header-row .cell:nth-child(2),
+.row .cell:nth-child(2) {
+  flex: 0 0 90px
 }
 
+.header-row .cell:nth-child(3),
+.row .cell:nth-child(3) {
+  flex: 0 0 180px;
+}
 
-
-
+.header-row .cell:nth-child(4),
+.row .cell:nth-child(4) {
+  flex: 0 0 200px;
+}
 

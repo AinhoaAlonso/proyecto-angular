@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Reserva } from '../model/Reserva';
+import { Appointment } from '../model/Appointment';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
 
@@ -11,18 +11,18 @@ export class ReservasService {
 
   constructor(private http:HttpClient) { }
 
-  getReservas():Observable<Reserva[]>{
-    return this.http.get<Reserva[]>('assets/reservas.json');
+  getAppointmentsAll():Observable<Appointment[]>{
+    return this.http.get<Appointment[]>('assets/reservas.json');
   }
 
-  getReservasPorFecha(fecha: Date): Observable<Reserva[]> {
-    return this.getReservas().pipe(
-      map(reservas =>
-        reservas.filter(reserva => {
-          const reservaFecha = new Date(reserva.fechaReserva);
-          return reservaFecha.getFullYear() === fecha.getFullYear() &&
-                 reservaFecha.getMonth() === fecha.getMonth() &&
-                 reservaFecha.getDate() === fecha.getDate();
+  getAppointmentsByDate(date: Date): Observable<Appointment[]> {
+    return this.getAppointmentsAll().pipe(
+      map(appo =>
+        appo.filter(appo => {
+          const appointmentDate = new Date(appo.dateAppointment);
+          return appointmentDate.getFullYear() === date.getFullYear() &&
+                 appointmentDate.getMonth() === date.getMonth() &&
+                 appointmentDate.getDate() === date.getDate();
         })
       )
     );

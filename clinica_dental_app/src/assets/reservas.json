@@ -1,29 +1,62 @@
 [
   {
-    "nombrePaciente": "Laura Gómez",
-    "tratamiento": "Limpieza dental",
-    "fechaReserva": "2025-05-16",
-    "horaInicio": "09:00",
-    "horaFin": "09:30",
-    "estadoReserva": "Confirmada",
-    "nombreDentista": "Dr. Ramírez"
+    "namePatient": "John Doe",
+    "treatment": "Physical Therapy",
+    "dateAppointment": "2025-05-21T00:00:00.000Z",
+    "startTimeAppointment": "09:00",
+    "endTimeAppointment": "09:45",
+    "durationTreatment": 45,
+    "statusAppointment": "Scheduled",
+    "nameProfessional": "Dr. Emily Carter"
   },
   {
-    "nombrePaciente": "Carlos Pérez",
-    "tratamiento": "Extracción de muela",
-    "fechaReserva": "2025-05-16",
-    "horaInicio": "10:00",
-    "horaFin": "10:45",
-    "estadoReserva": "Pendiente",
-    "nombreDentista": "Dra. López"
+    "namePatient": "Anna Smith",
+    "treatment": "Dental Cleaning",
+    "dateAppointment": "2025-05-22T00:00:00.000Z",
+    "startTimeAppointment": "11:00",
+    "endTimeAppointment": "11:30",
+    "durationTreatment": 30,
+    "statusAppointment": "Completed",
+    "nameProfessional": "Dr. Luis Martínez"
   },
   {
-    "nombrePaciente": "Ana Torres",
-    "tratamiento": "Ortodoncia",
-    "fechaReserva": "2025-05-17",
-    "horaInicio": "11:00",
-    "horaFin": "11:30",
-    "estadoReserva": "Cancelada",
-    "nombreDentista": "Dr. Martínez"
+    "namePatient": "Anna Smith",
+    "treatment": "Dental Cleaning",
+    "dateAppointment": "2025-05-22T00:00:00.000Z",
+    "startTimeAppointment": "11:00",
+    "endTimeAppointment": "11:30",
+    "durationTreatment": 30,
+    "statusAppointment": "Completed",
+    "nameProfessional": "Dr. Luis Martínez"
+  },
+  {
+    "namePatient": "Carlos Rodríguez",
+    "treatment": "Eye Exam",
+    "dateAppointment": "2025-05-23T00:00:00.000Z",
+    "startTimeAppointment": "15:00",
+    "endTimeAppointment": "15:20",
+    "durationTreatment": 20,
+    "statusAppointment": "Cancelled",
+    "nameProfessional": "Dr. Sara López"
+  },
+  {
+    "namePatient": "Lucía Fernández",
+    "treatment": "Chiropractic Adjustment",
+    "dateAppointment": "2025-05-24T00:00:00.000Z",
+    "startTimeAppointment": "13:30",
+    "endTimeAppointment": "14:00",
+    "durationTreatment": 30,
+    "statusAppointment": "Scheduled",
+    "nameProfessional": "Dr. Mark Thompson"
+  },
+  {
+    "namePatient": "Miguel Torres",
+    "treatment": "Vaccination",
+    "dateAppointment": "2025-05-25T00:00:00.000Z",
+    "startTimeAppointment": "08:15",
+    "endTimeAppointment": "08:30",
+    "durationTreatment": 15,
+    "statusAppointment": "Scheduled",
+    "nameProfessional": "Dr. Ana García"
   }
 ]

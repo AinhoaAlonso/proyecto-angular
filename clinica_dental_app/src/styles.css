@@ -8,8 +8,10 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 :root {
-  --primary-color: #3ee4b87b;
+  --primary-color: #34697a;
+  --secondary-color:rgba(2, 62, 81, 0.02);
   /*--secondary-color: #00dcd1a7;*/
   --background-color: #fbfcfd;
-  --text-color: #333333;
+  --text-color: #474646;
+  --text-color-light:#fbfcfd;
 }
