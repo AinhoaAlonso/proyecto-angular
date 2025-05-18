@@ -1,0 +1,32 @@
+<div class="main-container-calendar">
+  <div class="calendar-wrapper">
+    <!-- Calendario -->
+    <mat-card>
+      <mat-calendar [dateFilter]="dateFilter" [(selected)]="selectedDate" (selectedChange)="onDateChange($event)"></mat-calendar>
+    </mat-card>
+  </div>
+  <div class="appointment-wrapper">
+  <div class="title-appointment">
+    <h3>Citas {{selectedDate | date: 'fullDate' }}</h3>
+  </div>
+  <div class="body-appointment">
+    <!-- Header -->
+    <div class="header-row">
+      <div class="cell">Hora Inicio</div>
+      <div class="cell">Hora Fin</div>
+      <div class="cell">Nombre Paciente</div>
+      <div class="cell">Tratamiento</div>
+    </div>
+
+    <!-- Citas -->
+    <div class="appointments-list">
+      <div class="row" *ngFor="let appo of filteredAppointments">
+        <div class="cell">{{appo.startTimeAppointment}}</div>
+        <div class="cell">{{appo.endTimeAppointment}}</div>
+        <div class="cell">{{appo.namePatient}}</div>
+        <div class="cell">{{appo.treatment}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

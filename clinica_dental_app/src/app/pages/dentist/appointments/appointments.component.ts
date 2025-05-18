@@ -6,13 +6,11 @@ import { MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material/core';
 import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
-import { Appointment } from '../model/Appointment';
-import { ReservasService } from '../service/reservas.service';
-
+import { Appointment } from '../../../model/Appointment';
+import { ReservasService } from '../../../service/reservas.service';
 
 @Component({
-  selector: 'app-calendario',
-  standalone: true,
+  selector: 'app-appointments',
   imports: [
     CommonModule,
     MatCardModule,
@@ -22,10 +20,11 @@ import { ReservasService } from '../service/reservas.service';
     MatDividerModule,
     MatIconModule,
   ],
-  templateUrl: './calendario.component.html',
-  styleUrls: ['./calendario.component.css']
+  templateUrl: './appointments.component.html',
+  styleUrl: './appointments.component.css'
 })
-export class CalendarioComponent implements OnInit{
+export class AppointmentsComponent implements OnInit {
+
   selectedDate: Date = new Date();
   appointments: Appointment[];
   filteredAppointments: Appointment[]=[];
@@ -54,5 +53,5 @@ export class CalendarioComponent implements OnInit{
     const day = date.getDay();
     // 0 = domingo, 6 = sábado
     return day !== 0 && day !== 6;
-}
+  }
 }

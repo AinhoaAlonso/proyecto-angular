@@ -1,0 +1,30 @@
+[
+  {
+    "nameProfessional": "Dra. Ana López",
+    "dateAvailability": "2025-05-19",
+    "startTimeAvailability": "09:00",
+    "endTimeAvailability": "14:00",
+    "statusAvailability": "disponible"
+  },
+  {
+    "nameProfessional": "Dr. Carlos Méndez",
+    "dateAvailability": "2025-05-19",
+    "startTimeAvailability": "09:00",
+    "endTimeAvailability": "14:00",
+    "statusAvailability": "reservado"
+  },
+  {
+    "nameProfessional": "Dra. Lucía Fernández",
+    "dateAvailability": "2025-05-19",
+    "startTimeAvailability": "09:00",
+    "endTimeAvailability": "14:00",
+    "statusAvailability": "no disponible"
+  },
+  {
+    "nameProfessional": "Dr. Pedro Castillo",
+    "dateAvailability": "2025-05-19",
+    "startTimeAvailability": "09:00",
+    "endTimeAvailability": "14:00",
+    "statusAvailability": "disponible"
+  }
+]

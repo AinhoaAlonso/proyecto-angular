@@ -1,0 +1,26 @@
+<!-- dentist.component.html -->
+<div class="dentist-panel">
+
+  <!-- Izquierda: Encabezado + Menú -->
+  <div class="left-side">
+    <!-- Encabezado -->
+    <header class="panel-header">
+      <h2>Dr. Juan Pérez</h2>
+      <button>Cerrar Sesión</button>
+    </header>
+
+    <!-- Menú lateral -->
+    <nav class="side-menu">
+      <a routerLink="miscitas" routerLinkActive="active">Mis Citas</a>
+      <a routerLink="mihorario" routerLinkActive="active">Mi Horario</a>
+      <a routerLink="perfil" routerLinkActive="active">Perfil</a>
+    </nav>
+  </div>
+
+  <!-- Derecha: contenido dinámico -->
+  <div class="right-side">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
+

@@ -1,0 +1,64 @@
+/* dentist.component.css */
+:host {
+  display: block;
+  width: 100%;
+  margin-left: 20px;
+}
+
+
+.dentist-panel {
+  display: flex;
+  height: 85vh;
+  margin-top: 20px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 85vh;
+  background-color: var(--background-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.panel-header {
+  /*display: flex;
+  justify-content: space-between;
+  align-items: center;*/
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--text-color-light);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  flex-shrink: 0;
+}
+
+.side-menu {
+  padding: 1rem;
+  flex-grow: 1;     /* para que tome todo el espacio vertical disponible */
+  overflow: hidden;
+}
+
+.side-menu a {
+  display: block;
+  margin-bottom: 1rem;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* contenido arriba */
+}
+
+.side-menu a.active {
+  font-weight: bold;
+  color: #0077cc;
+}
+
+.right-side {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fff;
+  overflow-y: auto;
+}
