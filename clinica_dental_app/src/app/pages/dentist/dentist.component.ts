@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule} from '@angular/router';
+import { ScheduleComponent } from "./schedule/schedule.component";
 
 @Component({
   selector: 'app-dentist',
-  imports: [RouterOutlet],
+  imports: [RouterModule, ScheduleComponent],
   templateUrl: './dentist.component.html',
   styleUrl: './dentist.component.css'
 })

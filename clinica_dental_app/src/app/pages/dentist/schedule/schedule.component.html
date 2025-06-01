@@ -1,1 +1,30 @@
 <p>schedule works!</p>
+
+
+ <label for="fecha">Selecciona un día:</label>
+    <input type="date" id="fecha" [(ngModel)]="fechaSeleccionada" (change)="filtrarPorFecha()" />
+<div *ngIf="fechaSeleccionada">
+  <div *ngFor="let prof of objectKeys(disponibilidadesFiltradas)">
+    <h2>{{ prof }}</h2>
+    <div *ngFor="let date of objectKeys(disponibilidadesFiltradas[prof])">
+      <h3>{{ date }}</h3>
+
+      <div class="slots">
+        <button
+          *ngFor="let slot of disponibilidadesFiltradas[prof][date]"
+          [disabled]="slot.status !== 'libre'"
+          [ngClass]="{
+            'libre': slot.status === 'libre',
+            'reservado': slot.status === 'reservado',
+            'no-disponible': slot.status === 'no disponible'
+          }"
+          (click)="toggleSlot(slot)"
+        >
+          {{ slot.time }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+

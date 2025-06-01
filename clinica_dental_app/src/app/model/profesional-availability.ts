@@ -1,13 +1,13 @@
 export enum AvailabilityStatus {
-  Libre        = 'libre',
-  Reservado    = 'reservado',
+  libre        = 'libre',
+  reservado    = 'reservado',
   NoDisponible = 'no disponible',
 }
 
-export class ProfessionalAvailability{
-  nameProfessional:string;
-  dateAvailability:Date;
-  startTimeAvailability:string;
-  endTimeAvailability:string;
-  statusAvailability:AvailabilityStatus;
+export class Availability{
+  professional:string;
+  date:string;
+  availability:string;
+  time:string;
+  status:AvailabilityStatus;
 }

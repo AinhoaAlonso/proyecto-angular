@@ -1,0 +1,374 @@
+[
+  {
+    "professional": "Dra. Laura Pérez",
+    "date": "2025-06-01",
+    "availability": [
+      {
+        "time": "09:00",
+        "status": "libre"
+      },
+      {
+        "time": "09:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "10:00",
+        "status": "reservado"
+      },
+      {
+        "time": "10:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "11:00",
+        "status": "reservado"
+      },
+      {
+        "time": "11:30",
+        "status": "reservado"
+      },
+      {
+        "time": "12:00",
+        "status": "reservado"
+      },
+      {
+        "time": "12:30",
+        "status": "libre"
+      },
+      {
+        "time": "13:00",
+        "status": "reservado"
+      },
+      {
+        "time": "13:30",
+        "status": "libre"
+      },
+      {
+        "time": "16:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "16:30",
+        "status": "libre"
+      },
+      {
+        "time": "17:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "17:30",
+        "status": "libre"
+      }
+    ]
+  },
+  {
+    "professional": "Dra. Laura Pérez",
+    "date": "2025-06-02",
+    "availability": [
+      {
+        "time": "09:00",
+        "status": "reservado"
+      },
+      {
+        "time": "09:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "10:00",
+        "status": "libre"
+      },
+      {
+        "time": "10:30",
+        "status": "libre"
+      },
+      {
+        "time": "11:00",
+        "status": "reservado"
+      },
+      {
+        "time": "11:30",
+        "status": "reservado"
+      },
+      {
+        "time": "12:00",
+        "status": "reservado"
+      },
+      {
+        "time": "12:30",
+        "status": "libre"
+      },
+      {
+        "time": "13:00",
+        "status": "libre"
+      },
+      {
+        "time": "13:30",
+        "status": "reservado"
+      },
+      {
+        "time": "16:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "16:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "17:00",
+        "status": "libre"
+      },
+      {
+        "time": "17:30",
+        "status": "no disponible"
+      }
+    ]
+  },
+  {
+    "professional": "Dra. Laura Pérez",
+    "date": "2025-06-03",
+    "availability": [
+      {
+        "time": "09:00",
+        "status": "libre"
+      },
+      {
+        "time": "09:30",
+        "status": "reservado"
+      },
+      {
+        "time": "10:00",
+        "status": "libre"
+      },
+      {
+        "time": "10:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "11:00",
+        "status": "reservado"
+      },
+      {
+        "time": "11:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "12:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "12:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "13:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "13:30",
+        "status": "reservado"
+      },
+      {
+        "time": "16:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "16:30",
+        "status": "libre"
+      },
+      {
+        "time": "17:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "17:30",
+        "status": "libre"
+      }
+    ]
+  },
+  {
+    "professional": "Dr. Marcos Ortega",
+    "date": "2025-06-01",
+    "availability": [
+      {
+        "time": "09:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "09:30",
+        "status": "libre"
+      },
+      {
+        "time": "10:00",
+        "status": "reservado"
+      },
+      {
+        "time": "10:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "11:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "11:30",
+        "status": "libre"
+      },
+      {
+        "time": "12:00",
+        "status": "libre"
+      },
+      {
+        "time": "12:30",
+        "status": "reservado"
+      },
+      {
+        "time": "13:00",
+        "status": "libre"
+      },
+      {
+        "time": "13:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "16:00",
+        "status": "libre"
+      },
+      {
+        "time": "16:30",
+        "status": "reservado"
+      },
+      {
+        "time": "17:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "17:30",
+        "status": "libre"
+      }
+    ]
+  },
+  {
+    "professional": "Dr. Marcos Ortega",
+    "date": "2025-06-02",
+    "availability": [
+      {
+        "time": "09:00",
+        "status": "libre"
+      },
+      {
+        "time": "09:30",
+        "status": "reservado"
+      },
+      {
+        "time": "10:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "10:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "11:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "11:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "12:00",
+        "status": "libre"
+      },
+      {
+        "time": "12:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "13:00",
+        "status": "reservado"
+      },
+      {
+        "time": "13:30",
+        "status": "libre"
+      },
+      {
+        "time": "16:00",
+        "status": "reservado"
+      },
+      {
+        "time": "16:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "17:00",
+        "status": "libre"
+      },
+      {
+        "time": "17:30",
+        "status": "libre"
+      }
+    ]
+  },
+  {
+    "professional": "Dr. Marcos Ortega",
+    "date": "2025-06-03",
+    "availability": [
+      {
+        "time": "09:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "09:30",
+        "status": "libre"
+      },
+      {
+        "time": "10:00",
+        "status": "reservado"
+      },
+      {
+        "time": "10:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "11:00",
+        "status": "reservado"
+      },
+      {
+        "time": "11:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "12:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "12:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "13:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "13:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "16:00",
+        "status": "no disponible"
+      },
+      {
+        "time": "16:30",
+        "status": "no disponible"
+      },
+      {
+        "time": "17:00",
+        "status": "libre"
+      },
+      {
+        "time": "17:30",
+        "status": "libre"
+      }
+    ]
+  }
+]

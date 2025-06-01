@@ -1,0 +1,38 @@
+.slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary-color); 
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+  min-width: 80px;
+}
+
+button:hover:not(:disabled) {
+  background-color: var(--text-color);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-top: 24px;
+}
+
+h3 {
+  margin: 12px 0 8px;
+  color: #333;
+  font-size: 1.1rem;
+}

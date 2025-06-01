@@ -12,14 +12,17 @@
     <!-- Menú lateral -->
     <nav class="side-menu">
       <a routerLink="miscitas" routerLinkActive="active">Mis Citas</a>
-      <a routerLink="mihorario" routerLinkActive="active">Mi Horario</a>
+      <a routerLink="availabilities" routerLinkActive="router-link-active">Mi disponibilidad</a>
       <a routerLink="perfil" routerLinkActive="active">Perfil</a>
     </nav>
   </div>
 
   <!-- Derecha: contenido dinámico -->
   <div class="right-side">
-    <router-outlet></router-outlet>
+
+    <div class="availabilities-wrapper">
+      <app-schedule></app-schedule>
+    </div>
   </div>
 
 </div>

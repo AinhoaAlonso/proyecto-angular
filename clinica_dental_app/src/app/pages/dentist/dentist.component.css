@@ -1,10 +1,9 @@
-/* dentist.component.css */
+
 :host {
   display: block;
   width: 100%;
   margin-left: 20px;
 }
-
 
 .dentist-panel {
   display: flex;
@@ -58,6 +57,8 @@
 
 .right-side {
   flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 2rem;
   background-color: #fff;
   overflow-y: auto;

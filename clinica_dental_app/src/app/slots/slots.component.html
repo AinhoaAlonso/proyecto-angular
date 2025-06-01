@@ -1,0 +1,12 @@
+<h3>Por la mañana</h3>
+<div *ngFor="let slot of slotsMorning">
+  <button>{{ slot.start }}</button>
+</div>
+
+<h3>Por la tarde</h3>
+<div *ngFor="let slot of slotsAfternoon">
+  <button>{{ slot.start }}</button>
+</div>
+
+<br />
+<button>Elegir otro día</button>

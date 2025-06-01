@@ -1,0 +1,18 @@
+[
+  {
+    "id": 7,
+    "nombre": "María Fernández",
+    "especialidad": "Psicología",
+    "email": "maria.fernandez@example.com",
+    "telefono": "+34 600 123 456",
+    "ubicacion": "Madrid, España"
+  },
+  {
+    "id": 8,
+    "nombre": "Juan Gómez",
+    "especialidad": "Psicología",
+    "email": "juan.gomez@example.com",
+    "telefono": "+34 600 654 321",
+    "ubicacion": "Barcelona, España"
+  }
+]

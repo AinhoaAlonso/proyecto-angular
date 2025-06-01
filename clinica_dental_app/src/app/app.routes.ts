@@ -17,7 +17,7 @@ export const routes: Routes = [
     children: [
       { path: '', redirectTo: 'miscitas', pathMatch: 'full' }, // por defecto: mis citas
       { path: 'miscitas', component: AppointmentsComponent },
-      { path: 'mihorario', component: ScheduleComponent },
+      { path: 'availabilities', component: ScheduleComponent },
       { path: 'perfil', component: ProfileComponent },
     ]
   }
